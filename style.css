@@ -1,0 +1,113 @@
+body{
+    background-color: #147065;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    position: relative;
+    right: 150px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+.logo{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    position: relative;
+    left: 50px
+}
+
+.phonenumber{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    position: relative;
+    right: 100px;
+    font-size: 25px;
+    color:aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+section{
+    display: flex;
+}
+
+.maintext{
+    position: relative;
+    top: 100px; 
+    left: 100px;
+
+}
+
+.mainimage{
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+}
+
+.img1class{
+    width: 75%
+}
+
+.animbutton{
+    background-color: blue;/* Я нам*/
+    color: aquamarine;
+    padding: 15px 30px;
+font-size: 14px;
+text-transform: uppercase;
+border: none;
+ border-radius: 15px ;
+ cursor: pointer;
+ transition: background-color 0.7s ease; transform: 0.7 ease;
+ animation: bounce 2s infinite alternate;
+}
+@keyframes bounce{
+    0%
+    {
+        transform: translateY(0);
+        
+    }
+    100%{
+        
+        transform: translateY(-10px);
+    }
+
+}
+
+
+.animbutton:hover{
+
+    background-color: blueviolet;
+    color: blue;
+    transform: scale(1.1);
+}
+.Myteam{ 
+    background-color: rgb(160, 21, 21);
+
+}
+
+.mywork{
+    background-color: aqua;
+}
+
+footer{
+    background-color: black;
+}
+.fot{
+    background-color: beige;
+
+
+}
